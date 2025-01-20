@@ -4,6 +4,8 @@
 /* header starts  */
 header{
     position: static;
+    width: 72.5rem;
+    margin: auto;
 }
 /* nav starts  */
 nav{
@@ -11,8 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 11.625rem;
-    width: 72.5rem;
-    margin: auto;
+    width: 100%;
 }
 
 nav .logo{
