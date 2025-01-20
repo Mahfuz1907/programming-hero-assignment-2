@@ -6,6 +6,7 @@ header{
     position: static;
     width: 72.5rem;
     margin: auto;
+    padding: 1.25rem 0rem;
 }
 /* nav starts  */
 nav{
@@ -15,6 +16,12 @@ nav{
     gap: 11.625rem;
     width: 100%;
 }
+
+
+nav i{
+    visibility: hidden;
+}
+
 
 nav .logo{
     display: flex;
@@ -81,6 +88,48 @@ nav button{
     letter-spacing: 0%;
     background: rgb(254, 163, 1);
     border: 0px;
+}
+
+
+@media screen and (max-width: 400px) {
+    nav ul, nav button, nav .logo h1{
+        display: none;
+    }
+
+    nav i{
+        visibility: visible;
+    }
+
+    header{
+        position: static;
+        width: 72.5rem;
+        margin: auto;
+        padding: 1.25rem 0rem;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav .menu i{
+        width: 2.53rem;
+        height: 2.53rem;
+        padding: 7.5px 3.75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .logo{
+        display: flex;
+        width: 12.625rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }
 /* nav ends  */
 /* header ends */
