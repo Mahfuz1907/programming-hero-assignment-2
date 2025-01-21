@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
-/* screen width 1440 px */
+/* For Big Screen 
 
-/* header starts  */
+
+screen width 1440 px
+
+
+*/
+/* header big starts  */
 header{
     position: static;
     width: 100%;
     padding: 0px;
 }
-/* nav starts  */
+/* nav big starts  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -96,7 +101,106 @@ nav button{
 }
 
 
+/* nav big ends  */
+
+/* header-content big starts  */
+.header-content{
+    width: 81vw;
+    height: 89.56vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.47vh;
+}
+
+.header-content .content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.header-content .content-text h1{
+    width: 44.44vw;
+    height: 183px;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 3.88vw;
+    font-weight: 700;
+    line-height: 4.17vw;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+}
+
+
+.header-content .content-text h1 .text-1{
+    color: rgb(254, 163, 1);
+}
+
+
+.header-content .content-text h1 .text-2{
+    color: rgb(1, 172, 253);
+}
+
+
+.header-content .content-text p{
+    width: 44.44vw;
+    height: 50px;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.38vw;
+    font-weight: 400;
+    line-height: 1.73vw;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+}
+
+.header-content .content-text button{
+    width: 13.68vw;
+    height: 50px;
+    padding: 10px 0.69vw;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.38vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.header-content .content-img img{
+    width: 32.54vw;
+    height: 575px;
+}
+/* header-content big ends */
+/* header big ends */
+
+
+/* For Small Screen 
+
+
+screen width 390 px
+
+
+*/
+/* header small starts  */
 @media screen and (max-width: 390px) {
+    .head-nav{
+        width: 91.53vw;
+        padding: 0px;
+        margin: 0px;
+        border: 0.08vh solid rgb(254, 163, 1);
+    }
+
+/* nav small starts  */
+
     nav ul, nav button, nav .logo h1{
         display: none;
     }
@@ -108,13 +212,6 @@ nav button{
     nav .menu i{
         width: 7.7vw;
         padding: 1.17vh 0.96vw;
-    }
-
-    header{
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        border: 0.08vh solid rgb(254, 163, 1);
     }
     
     nav{
@@ -131,6 +228,69 @@ nav button{
         justify-content: flex-start;
         align-items: center;
     }
+
+/* nav small ends  */
+/* header-content small starts  */
+
+.header-content{
+    width: 91.53vw;
+    height: 725px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding: 20px 0px 20px 0px;
 }
-/* nav ends  */
-/* header ends */
+
+.header-content .content-text{
+    width: 86.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.header-content .content-text h1{
+    width: 91.53vw;
+    height: 120px;
+    font-size: 8.21vw;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+
+.header-content .content-text p{
+    width: 91.53vw;
+    height: 54px;
+    font-size: 3.58vw;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+
+.header-content .content-text button{
+    width: 33.6vw;
+    height: 42px;
+    padding: 6px 5.8vw;
+    border-radius: 8px;
+    font-size: 4.1vw;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header-content .content-img img{
+    width: 86.3vw;
+    height: 380px;
+}
+/* header-content small ends */
+/* header small ends  */
+
+}
+
