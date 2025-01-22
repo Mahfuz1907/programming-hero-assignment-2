@@ -571,6 +571,20 @@ footer{
     text-align: left;
 }
 
+
+.marque{
+    animation: scroll 3s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 .foot-logo{
     display: flex;
     justify-content: flex-start;
