@@ -332,6 +332,187 @@ main .curriculum .curriculum-card .card-3 button{
     text-align: center;
 }
 /* curriculum big ends  */
+/* story big starts  */
+.story{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    width: 100%;
+}
+
+.story-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.17vw 0px;
+    gap: 5.56vw;
+}
+
+
+.story-card-1{
+    grid-area: myArea;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-1 img{
+    width: 99.9%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.story-card-1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2.67vw;
+}
+
+.story-card-1 h1{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.67vw;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0.2vw 4.24vw 0.27vw 0px;
+}
+
+.story-card-1 p{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.story-card-2{
+    grid-area: myArea2;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-2 img{
+    width: 99.9%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-card-3{
+    grid-area: myArea3;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-3 img{
+    width: 99.9%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-card-4{
+    grid-area: myArea4;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-4 img{
+    width: 99.9%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-card-5{
+    grid-area: myArea5;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-5 img{
+    width: 99.9%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-card-2 h1, .story-card-3 h1, .story-card-4 h1, .story-card-5 h1{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0.33vw 1.11vw 0.33vw 0px;
+    margin: 0px 2.64vw;
+}
+
+
+
+.story-card{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr);  */
+    grid-template-areas: 
+    "myArea myArea myArea2 myArea3"
+    "myArea myArea myArea4 myArea5";
+    gap: 1.32vw;
+    width: 81vw;
+}
+
+
+.story button{
+    width: 13.68vw;
+    padding: 0.69vw;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.38vw;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.story .story-card button{
+    width: 12.11vw;
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.07vw;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    padding: 0px;
+    height: 2.64vw;
+}
+
+
+.story .story-card-1 button{
+    background: rgb(60, 216, 232);
+    height: 3.33vw;
+}
+
+.story .story-card-2 button{
+    background: rgb(149, 178, 38);
+}
+
+.story .story-card-3 button{
+    background: rgb(93, 88, 240);
+}
+
+.story .story-card-4 button{
+    background: rgb(149, 178, 38);
+}
+
+.story .story-card-5 button{
+    background: rgb(149, 178, 38);
+}
+
+
+
+/* story big ends  */
 /* main big ends  */
 
 /* For Small Screen 
