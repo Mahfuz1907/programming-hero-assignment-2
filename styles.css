@@ -406,6 +406,10 @@ main .curriculum .curriculum-card .card-3 button{
     background: rgb(255, 255, 255);
 }
 
+.story-card-3-1, .story-card-3-2{
+    display: none;
+}
+
 .story-card-3 img{
     width: 99.9%;
     border-radius: 16px 16px 0px 0px;
@@ -449,7 +453,6 @@ main .curriculum .curriculum-card .card-3 button{
 
 .story-card{
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr);  */
     grid-template-areas: 
     "myArea myArea myArea2 myArea3"
     "myArea myArea myArea4 myArea5";
@@ -486,6 +489,9 @@ main .curriculum .curriculum-card .card-3 button{
     border: none;
     padding: 0px;
     height: 2.64vw;
+    position: relative;
+    top: -1.82vw;
+    left: 2.10vw;
 }
 
 
@@ -736,6 +742,121 @@ main .curriculum .curriculum-card .card-3{
 }
 
 /* curriculum small ends  */
+
+/* story small starts  */
+
+.story-card-1{
+    display: none;
+}
+
+.story-card-2{
+    grid-area: myArea2;
+    border-radius: 2.44vw;
+}
+
+.story-card-2 img{
+    border-radius: 2.44vw 2.44vw 0vw 0vw;
+}
+
+.story-card-3{
+    grid-area: myArea3;
+    border-radius: 2.44vw;
+}
+
+.story-card-3-1{
+    display: grid;
+    grid-area: myArea31;
+    border-radius: 2.44vw;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-3-2{
+    display: grid;
+    grid-area: myArea32;
+    border-radius: 2.44vw;
+    background: rgb(255, 255, 255);
+}
+
+.story-card-3-1 img, .story-card-3-2 img{
+    width: 99.9%;
+    border-radius: 2.44vw 2.44vw 0vw 0vw;
+}
+
+.story-card-4{
+    grid-area: myArea4;
+    border-radius: 2.44vw;
+}
+
+.story-card-4 img{
+    border-radius: 2.44vw 2.44vw 0vw 0vw;
+}
+
+.story-card-5{
+    grid-area: myArea5;
+    border-radius: 2.44vw;
+}
+
+.story-card-5 img{
+    width: 99.9%;
+    border-radius: 2.44vw 2.44vw 0vw 0vw;
+}
+
+.story-card-2 h1, .story-card-3 h1, .story-card-3-1 h1, .story-card-3-2 h1, .story-card-4 h1, .story-card-5 h1{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.33vw;
+    font-weight: 700;
+    line-height: 4.39vw;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0.73vw 5vw 0.73vw 0px;
+    margin: 0px 5.89vw 4.39vw 5.89vw;
+}
+
+
+
+.story-card{
+    display: grid;
+    grid-template-areas: 
+    "myArea2 myArea3"
+    "myArea31 myArea32"
+    "myArea4 myArea5";
+    gap: 2.32vw;
+    width: 91vw;
+}
+
+
+.story button{
+    width: 34.36vw;
+    padding: 2.56vw;
+    border-radius: 12px;
+    font-size: 4.1vw;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.story .story-card button{
+    width: 26.64vw;
+    border-radius: 7.32vw;
+    font-size: 2.34vw;
+    font-weight: 500;
+    height: 5.85vw;
+    top: -3.9vw;
+    left: 5.10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story .story-card-3-1 button, .story .story-card-3-2 button{
+    background: rgb(93, 88, 240);
+}
+
+
+
+/* story small ends  */
 /* main small ends  */
 
 }
