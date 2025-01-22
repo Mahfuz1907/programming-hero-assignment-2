@@ -520,6 +520,117 @@ main .curriculum .curriculum-card .card-3 button{
 
 /* story big ends  */
 /* main big ends  */
+/* footer big starts  */
+footer{
+    background: rgb(1, 172, 253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 36.04vw;
+    width: 100%;
+}
+
+.foot-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.foot-head h1{
+    width: 14.31vw;
+    height: 5.76vw;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.93vw;
+    font-weight: 700;
+    line-height: 2.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.foot-logo img{
+    width: 5.76vw;
+    height: 5.76vw;
+    color: white;
+}
+
+
+.foot-head p{
+    width: 27.71vw;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-nav h1{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.67vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-nav h2{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.39vw;
+    font-weight: 500;
+    line-height: 1.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+
+.foot-foot h1{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.81vw;
+    font-weight: 700;
+    line-height: 1.81vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.7vw;
+}
+
+
+/* footer big ends  */
 
 /* For Small Screen 
 
@@ -531,7 +642,7 @@ screen width 390 px
 
 
 /* header small starts  */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     .head-nav{
         width: 91.53vw;
         padding: 0px;
@@ -859,5 +970,118 @@ main .curriculum .curriculum-card .card-3{
 /* story small ends  */
 /* main small ends  */
 
+
+/* footer small starts  */
+footer{
+    background: rgb(1, 172, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 164.62vw;
+    width: 100%;
+}
+
+.foot-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.foot-head h1{
+    width: 14.31vw;
+    height: 5.76vw;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.93vw;
+    font-weight: 700;
+    line-height: 2.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.foot-logo img{
+    width: 5.76vw;
+    height: 5.76vw;
+    color: white;
+}
+
+
+.foot-head p{
+    width: 27.71vw;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-nav h1{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.67vw;
+    font-weight: 700;
+    line-height: 2.08vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-nav h2{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.39vw;
+    font-weight: 500;
+    line-height: 1.74vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+
+.foot-foot h1{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.81vw;
+    font-weight: 700;
+    line-height: 1.81vw;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.foot-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.7vw;
+}
+
+
+/* footer small ends  */
 }
 
